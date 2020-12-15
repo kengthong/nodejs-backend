@@ -8,8 +8,9 @@
   "scripts": {
     "test": "jest --collectCoverage --runInBand",
     "prebuild": "rimraf dist/",
-    "build": "tsc",
+    "build": "tsc ",
     "start": "yarn serve",
+    "start-ts": "ts-node src/index.ts",
     "serve": "node dist/index.js",
     "watch-node": "nodemon",
     "watch-ts": "tsc -w",
